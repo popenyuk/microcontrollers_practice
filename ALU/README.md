@@ -1,2 +1,6 @@
-Здано п. Олегу Фаренюку у вигляді двохбітного варіанту з чотирьма операціями. Тобто перше додаткове завдання.
-Схема намальована для чотирьохбітного варіанту, проте десь вискочила помилку, яку я не зміг усунути. Схему збирав з виключно нандів.
+## Team members
+Zenovii Popenyuk
+Yevhenii Molodtsov
+
+## Description
+The scheme is constructed with only NAND controllers. The ALU is 4-bits. It supports adding, subtracting, multiplying and dividing operations. 
