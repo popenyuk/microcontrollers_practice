@@ -1,6 +1,6 @@
 ## Team members
-Zenovii Popenyuk
-Yevhenii Molodtsov
+- Zenovii Popenyuk
+- Yevhenii Molodtsov
 
 ## Description
 With the help of the library, the initialization of the accelerometer and gyroscope is starting: if an error appears, then the corresponding screen appears message. If everything is ok, then the data is read from the accelerometer and the gyroscope, and then sent to the screen through the library.
