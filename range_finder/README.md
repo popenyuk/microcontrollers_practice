@@ -1,6 +1,6 @@
 ## Team members
-Zenovii Popenyuk
-Yevhenii Molodtsov
+- Zenovii Popenyuk
+- Yevhenii Molodtsov
 
 ## Description
 Extends 16 ms on the pin TRIG 1, then changes to 0. Then the ECHO value automatically adjusts to the foam, because of which
