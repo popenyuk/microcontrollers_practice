@@ -1,25 +1,11 @@
-﻿Виконано:
-	Попенюк Зеновій
-	Мороз Євгеній
+## Team members
+Zenovii Popenyuk
+Yevhenii Molodtsov
 
-Виконано за допомогою переривань! 
+## Description
+Extends 16 ms on the pin TRIG 1, then changes to 0. Then the ECHO value automatically adjusts to the foam, because of which
+the interrupt is called and if the state is the expectation of sending the ECHO signal, then the current time is recorded.
+If the state is the state of waiting for the signal, then the difference between the sending time and the signal is recorded
 
-Працює наступним чином:
-	Виставляє на 16 мс на пін TRIG 1, потім міняє на 0. Тоді автоматично на піні ECHO значення змінюється, через що 
-	викликається переривання і якщо стан являється очікуванням на відсиланням сигналу ECHO, то записується поточний час.
-	Якщо стан є станом очікування на отримання сигналу, то записується різниця між часом відправлення та отримання сигналу
-
-Нюанси:
-	Якщо відстань менша за 5 см, або більша за 5 метрів, то показується помилка, оскільки далекомір не визначає відстань меншу за 5 см,
-	а відстань більшу за 5 метрів він рахує погано.
-	Якщо сигнал був невідправлений, або відправлений, але не "прийшов назад", то програма зависає.
-	
-Далекомір:
-	Технічно:
-		Працює так: на пін Trig на 16 мс встановлюється значення 1, потім якщо сигнал було відправлено, то змінюється пін ECHO.
-		Якщо сигнал приходить, то значення піна ECHO знову змінюється.
-	Фізично:
-		Відправляє сигнал по передавачу, а потім "ловить" його приймачем.
-
-LCD дисплей:
-	Бібліотека написана за участю Маркіяна, початкові функції. Решту дописали ми, такі функції як sendInt, sendFloat....., search_I2C_bus
+If the distance is less than 5 cm or more than 5 meters, then an error is shown since the rangefinder does not detect a range less than 5 cm, and the distance more than 5 meters he counts wrongly.
+If the signal was not sent, or sent, but not "come back" then the program freezes.
