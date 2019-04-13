@@ -1,13 +1,11 @@
-Учасники команди:
-	Зеновій Попенюк
-	Євгеній Мороз
+## Team members
+Zenovii Popenyuk
+Yevhenii Molodtsov
 
-﻿Ітак, принцип роботи схеми на основі тригера шмідта та допоміжного кола з конденсатором: 
-1. Коли кнопка знаходиться у вимкнутому стані (коло розімкнене) на вхід тригера подається 1 (на виході 0) і паралельно
-заряджається наш конденстарор ємкістю 22 мікрофарада - експерементально встановлено, що така ємкість дозволить гасити брязкіт 
-необхідний нам час.
-2. Коли кнопка знаходится у вімкненому стані (коло замкнуте), конденсатор розряджається, на вхід тригера перестає приходити
-сигнал і його вихід змінюється на 1.
-3. Найцікавіший стан кнопки (власне, брязкіт). За рахунок того, що конденсатор в нас заряджений, в моменти брязкоту (стикання контактів
-на короткий час) він компенсуватиме відсутність заряду і "гаситеме" так званий високочастотний шум, підтримуючи логічну одиницю на вході в 
-тригер шмідта. Коли ж контакти "заспокояться", то схема перейде в стан 2.
+## Description
+The principle of operation of the circuit based on the Shmidt trigger an auxiliary circle with a capacitor:
+1. When the button is in the off state (the circle is unlocked), the trigger input is given 1 (at output 0), and in parallel, our condenser is recharged with a capacity of 22 microfarads - it has been experimentally established that such a capacity will allow for quenching the clamor we need time.
+2. When the button is in the off state (the circle is closed), the capacitor discharges, the trigger stops coming to the input
+the signal and its output is changed to 1.
+3. The most exciting button state (actually, jerk). Because the capacitor is charged to us, at the moments of clogging (contacting contacts
+for a short time), it will compensate for the lack of charge and "shake" the so-called high-frequency noise, supporting the logical unit at the entrance to Shmidt triggers. When the contacts "calm down," then the circuit will go to state 2.
