@@ -1,6 +1,6 @@
-## Team members:
-Zenovii Popenyuk
-Yevhenii Molodtsov
+## Team members
+- Zenovii Popenyuk
+- Yevhenii Molodtsov
 
 ## Description
 The program is light up the LEDs on the STM32F3 clockwise or counterclockwise depending on the button state on the microcontroller.
