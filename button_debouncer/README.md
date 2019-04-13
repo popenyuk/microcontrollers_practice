@@ -1,6 +1,6 @@
 ## Team members
-Zenovii Popenyuk
-Yevhenii Molodtsov
+- Zenovii Popenyuk
+- Yevhenii Molodtsov
 
 ## Description
 The principle of operation of the circuit based on the Shmidt trigger an auxiliary circle with a capacitor:
